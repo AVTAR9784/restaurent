@@ -33,7 +33,7 @@
 </head>
 
 <body>
-    <div class="container-xxl bg-white p-0">
+    <div class="container-fluid bg-white p-0">
         <!-- Spinner Start -->
         <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
             <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
@@ -44,7 +44,7 @@
 
 
         <!-- Navbar & Hero Start -->
-        <div class="container-xxl position-relative p-0">
+        <div class="container-fluid position-relative p-0">
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
                 <a href="" class="navbar-brand p-0">
                     <!-- <h1 class="text-primary m-0"><i class="fa fa-utensils me-3"></i>Restoran</h1> -->
@@ -71,12 +71,25 @@
                 </div>
             </nav>
 
-            <div  id="home" class="container-xxl py-5 bg-dark hero-header mb-5">
+            <div  id="home" class="container-fluid py-5 bg-dark hero-header mb-5">
                 <div class="container my-5 py-5">
                     <div class="row align-items-center g-5">
                         <div class="col-lg-6 text-center text-lg-start">
                             <h1 class="display-3 text-white animated slideInLeft">Savor<br>Local Delights</h1>
-                            <p class="text-white animated slideInLeft mb-4 pb-2"> Welcome, Global Travelers! Indulge in a culinary adventure right from the comfort of your hotel room. Our vibrant street restaurant is dedicated to serving up the finest local flavors, carefully crafted to tantalize your taste buds and immerse you in the essence of our culture.</p>
+                            <p class="text-white animated slideInLeft mb-4 pb-2"> Welcome to our small pure veg restaurant PRASADAM , where we
+                                serve some of the most delicious vegetarian food in Mayapur! Our
+                                menu features a wide range of carefully crafted dishes using the
+                                freshest and highest quality ingredients, ensuring that every bite
+                                is bursting with flavor and nutrition.
+                                
+                                Whether you're a seasoned vegetarian or simply looking for
+                                
+                                a healthy and tasty meal option, our restaurant is the perfect
+                                choice. From classic Indian dishes like Idli and Dosa, to flavorful
+                                Pasta, Chole Bhature, Puri, Samosa, we have something for
+                                everyone. We also offer a variety of 100 % pure vegan (Jain Food)
+                                options, ensuring that everyone can find something to satisfy
+                                their cravings.</p>
                             <a href="https://wa.me/918653645424" class="btn btn-primary py-sm-3 px-sm-5 me-3 animated slideInLeft">order now</a>
                         </div>
                         <div class="col-lg-6 text-center text-lg-end overflow-hidden">
@@ -89,7 +102,7 @@
         <!-- Navbar & Hero End -->
 
  <!-- About Start -->
- <div class="container-xxl py-5" id="about">
+ <div class="container-fluid py-5" id="about">
     <div class="container">
         <div class="row g-5 align-items-center">
             <div class="col-lg-6">
@@ -140,7 +153,7 @@
 </div>
 <!-- About End -->
        <!-- Service Start -->
-       <div class="container-xxl py-5" id="service">
+       <div class="container-fluid py-5" id="service">
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
                 <h5 class="section-title ff-secondary text-center text-primary fw-normal">Our Services</h5>
@@ -152,7 +165,8 @@
                         <div class="p-4">
                             <i class="fa fa-3x fa-user-tie text-primary mb-4"></i>
                             <h5>Master Chefs</h5>
-                            <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                            <p>
+                                Master chefs are the maestros of the culinary world, orchestrating symphonies of taste and technique.</p>
                         </div>
                     </div>
                 </div>
@@ -161,7 +175,7 @@
                         <div class="p-4">
                             <i class="fa fa-3x fa-utensils text-primary mb-4"></i>
                             <h5>Quality Food</h5>
-                            <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                            <p>Indulge your taste buds with our exquisite range of culinary delights crafted with premium ingredients and a passion for perfection. </p>
                         </div>
                     </div>
                 </div>
@@ -170,7 +184,7 @@
                         <div class="p-4">
                             <i class="fa fa-3x fa-cart-plus text-primary mb-4"></i>
                             <h5>Online Order</h5>
-                            <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                            <p>Experience seamless convenience with our online ordering system. </p>
                         </div>
                     </div>
                 </div>
@@ -179,7 +193,7 @@
                         <div class="p-4">
                             <i class="fa fa-3x fa-headset text-primary mb-4"></i>
                             <h5>24/7 Service</h5>
-                            <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                            <p>Welcome to our website, where round-the-clock service isn't just a promise, it's our commitment</p>
                         </div>
                     </div>
                 </div>
@@ -550,8 +564,8 @@
                 </div>
                 <div class="col-md-6 bg-dark d-flex align-items-center">
                     <div class="p-5 wow fadeInUp" data-wow-delay="0.2s">
-                        <h5 class="section-title ff-secondary text-start text-primary fw-normal">Reservation</h5>
-                        <h1 class="text-white mb-4">Book A Table Online</h1>
+                        <h5 class="section-title ff-secondary text-start text-primary fw-normal">Order</h5>
+                        <h1 class="text-white mb-4">Order Online</h1>
                         <form name="booking" method="POST" data-netlify="true"  class="contact-form form-validate" novalidate="novalidate">
                             <div class="row g-3">
                                 <div class="col-md-6">
@@ -562,26 +576,25 @@
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-floating">
-                                        <input type="email" class="form-control" id="email" placeholder="Your Email">
-                                        <label for="email">Your Email</label>
+                                        <input type="number" class="form-control" id="mobile" placeholder="your Mobile No.">
+                                        <label for="number">Your Mobile Number</label>
                                     </div>
                                 </div>
-                                <div class="col-md-6">
-                                    <div class="form-floating date" id="date3" data-target-input="nearest">
-                                        <input type="text" class="form-control datetimepicker-input" id="datetime" placeholder="Date & Time" data-target="#date3" data-toggle="datetimepicker" />
-                                        <label for="datetime">Date & Time</label>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
+                                <div class="col-12">
                                     <div class="form-floating">
-                                        <select class="form-select" id="select1">
-                                          <option value="1">People 1</option>
-                                          <option value="2">People 2</option>
-                                          <option value="3">People 3</option>
-                                        </select>
-                                        <label for="select1">No Of People</label>
-                                      </div>
+                                        <textarea class="form-control" placeholder="address" id="address" style="height: 100px"></textarea>
+                                        <label for="address">Address</label>
+                                    </div>
                                 </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <textarea class="form-control" placeholder="Order" id="order" style="height: 100px"></textarea>
+                                        <label for="order">Order</label>
+                                    </div>
+                                </div>
+                             
+                           
+                             
                                 <div class="col-12">
                                     <div class="form-floating">
                                         <textarea class="form-control" placeholder="Special Request" id="message" style="height: 100px"></textarea>
@@ -589,7 +602,7 @@
                                     </div>
                                 </div>
                                 <div class="col-12">
-                                    <button class="btn btn-primary w-100 py-3" type="submit">Book Now</button>
+                                    <button class="btn btn-primary w-100 py-3" type="submit">Order Now</button>
                                 </div>
                             </div>
                         </form>
@@ -618,74 +631,8 @@
         <!-- Reservation Start -->
 
 
-        <!-- Team Start -->
-        <!-- <div class="container-xxl pt-5 pb-3" id="team">
-            <div class="container">
-                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                    <h5 class="section-title ff-secondary text-center text-primary fw-normal">Team Members</h5>
-                    <h1 class="mb-5">Our Master Chefs</h1>
-                </div>
-                <div class="row g-4">
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="team-item text-center rounded overflow-hidden">
-                            <div class="rounded-circle overflow-hidden m-4">
-                                <img class="img-fluid" src="img/team-1.jpg" alt="">
-                            </div>
-                            <h5 class="mb-0">Full Name</h5>
-                            <small>Designation</small>
-                            <div class="d-flex justify-content-center mt-3">
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="team-item text-center rounded overflow-hidden">
-                            <div class="rounded-circle overflow-hidden m-4">
-                                <img class="img-fluid" src="img/team-2.jpg" alt="">
-                            </div>
-                            <h5 class="mb-0">Full Name</h5>
-                            <small>Designation</small>
-                            <div class="d-flex justify-content-center mt-3">
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="team-item text-center rounded overflow-hidden">
-                            <div class="rounded-circle overflow-hidden m-4">
-                                <img class="img-fluid" src="img/team-3.jpg" alt="">
-                            </div>
-                            <h5 class="mb-0">Full Name</h5>
-                            <small>Designation</small>
-                            <div class="d-flex justify-content-center mt-3">
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                        <div class="team-item text-center rounded overflow-hidden">
-                            <div class="rounded-circle overflow-hidden m-4">
-                                <img class="img-fluid" src="img/team-4.jpg" alt="">
-                            </div>
-                            <h5 class="mb-0">Full Name</h5>
-                            <small>Designation</small>
-                            <div class="d-flex justify-content-center mt-3">
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-        <!-- Team End -->
+    
+
 
 
         <!-- Testimonial Start -->
